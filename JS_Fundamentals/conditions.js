@@ -9,3 +9,13 @@ else {
     console.log("You can't vote right now!");
     console.log(`But you can vote after ${ageLimit - age} years.`);
 }
+
+const birthYear = 2999;
+let century;
+if (birthYear <= 1900 && birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);
